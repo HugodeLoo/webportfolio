@@ -1,0 +1,979 @@
+/*RESET SHEET BY meyerweb.com*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*************documentwide css************/
+/*typography css*/
+body {
+    font-size: 16px;
+}
+h1 {
+    font-family: costa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.31em;
+}
+h2 {
+    font-family: costa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.81em;
+}
+h3 {
+    font-family: costa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.06em;
+}
+h4 {
+    font-family: costa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8em;
+}
+p {
+    font-family: dolly-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.33em;
+}
+b{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #B0B0B0;
+}
+video {
+    width: 950px;
+}
+/*standard css tags*/
+
+.lock {
+    overflow-x: hidden;
+}
+.hidden {
+    display: none;
+}
+.raise {
+    z-index: 10;
+}
+.fixed {
+    position: fixed;
+}
+.mefixesfloatybois {
+    clear: both;
+}
+.hoofdstukgedaan {
+    color: #7BCC27;
+}
+
+/*pinboard css*/
+.pinboard {
+    border: 25px solid;
+    border-color: #C38144;
+    background-color: #A46C39;
+}
+
+/*content css*/
+main {
+    margin: 10px;
+    width: calc(100vw - 90px);
+    background-color: #CD9C71;
+}
+.scenes {
+    width: inherit;
+    height: 100vh;
+    position: relative;
+}
+.cont{
+    max-width: 1830px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*Scrollable Scenes css*/
+.scrollable {
+    width: 351.5vw;
+    margin: -35px;
+    height: 1029px;
+}
+.horizontal-main{
+    margin: 10px;
+    width: calc(inherit - 90px);
+    height: calc(100% - 20px);
+    background-color: #CD9C71;
+}
+.horizontal-page {
+    width: 100vw;
+    height: inherit;
+    float: left;
+}
+.start {
+    margin-left: -35px;
+}
+.start h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.horizontal-cont{
+    max-width: 1830px;
+    height: inherit;
+    position: relative;
+    margin: 0 auto;
+}
+.small-page {
+    width: 50vw;
+}
+.small-cont {
+    max-width: 915px;
+}
+.horizontal-cont .player-cont{
+    margin-top: 30px;
+}
+
+/*Voordeelen | Nadelen css*/
+.half-cont {
+    height: inherit;
+    width: 50%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.half-cont h2{
+    margin-top: 30px;
+}
+.small-cont h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.half-cont .delen-note{
+    background-color: #CFD5A9;
+}
+.voordelen .pins {
+    background-image: radial-gradient(#9AFF31, #4B7D18);
+}
+.nadelen .pins {
+    background-image: radial-gradient(#FF3B58, #9E2536);
+}
+
+
+/***********recurring asset css****************/
+
+/*player css*/
+.player-cont {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: calc(50% - 545px);
+}
+.player {
+    position: absolute;
+    background-color: #F4F8DD;
+    width: 1090px;
+    height: 673px;
+}
+.player video {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+
+/*pin css*/
+.pins {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.pinL {
+    left: 15px;
+}
+.pinR {
+    right: 15px;
+}
+.pinT {
+    top: 15px;
+}
+.pinB {
+    bottom: 15px;
+}
+.pinTM {
+    top: 15px;
+    left: calc(50% - 13px);
+}
+
+/*Post It css*/
+.post-it {
+    width: 269px;
+    height: 157px;
+    background-color: #CFD5A9;
+    text-align: center;
+}
+.post-it-house {
+    position: absolute;
+}
+.tape {
+    position: absolute;
+    top: -30%;
+}
+.smallTape {
+    width: 62px;
+    height: 93px;
+    left: calc(50% - 31px);
+}
+.post-it h3{
+    line-height: 157px;
+}
+.post-it h3:hover{
+    cursor: pointer;
+    color: #F4F8DD;
+}
+
+/*Korte Mentions Titel*/
+.titel-post-it{
+    background-color: #E67A92;
+    text-align: center;
+    position: relative;
+    width: 690px;
+    height: 150px;
+    margin: 114px auto;
+}
+.titel-tape {
+    position: absolute;
+    background-color: #E8DEAB;
+    width: 354px;
+    height: 53px;
+    top: -20%;
+    left: calc(50% - 177px);
+}
+.titel-post-it h1{
+    line-height: 150px;
+    color: #F4F8DD;
+}
+.titel-post-it h3{
+    margin-top: 10px;
+}
+
+/*Korte Mentions css*/
+.note {
+    position: absolute;
+}
+.korte-mention-note {
+    width: 362px;
+    height: 329px;
+}
+.link-note {
+    width: 362px;
+    height: 329px;
+}
+.delen-note {
+    width: 300px;
+    height: 250px;
+}
+.gezondheids-note {
+    width: 348px;
+    height: 367px;
+}
+.content-cont {
+    width: inherit;
+    height: 240px;
+    text-align: center;
+}
+.content-cont p{
+    text-align: left;
+}
+.korte-mention-note .pins{
+    width: 30px;
+    height: 30px;
+}
+.korte-cont {
+    padding-top: 50px;
+}
+.delen-cont {
+    padding-top: 60px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+#wind {
+    width: 382px;
+    height: 389px;
+}
+#zon {
+    width: 382px;
+    height: 349px;
+}
+
+/*House Frame css*/
+.house-frame {
+    border: 40px solid;
+    border-color: #F4F8DD;
+    background-color: #7DD1D3;
+    width: 994px;
+    height: 751px;
+    margin-left: calc(50% - 497px);
+}
+#whole-house img{
+    width: 700px;
+}
+
+/*Small Frame css*/
+.page2 h2{
+    margin-top: 30px;
+}
+.small-frame {
+    width: 924px;
+    height: 666px;
+}
+.small-frame img {
+    display: block;
+    margin: 50px auto;
+}
+.horizontal-cont .tape{
+    background-color: #41BBB8;
+}
+
+/*Laag 2 post its code*/
+.TR {
+    top: 80px;
+    left: 300px;
+    transform: rotate(-5deg);
+}
+.BR {
+    top: 450px;
+    left: 300px;
+}
+.BL {
+    top: 450px;
+    right: 280px;
+    transform: rotate(-13deg);
+}
+.TL {
+    top: 110px;
+    right: 300px;
+    transform: rotate(6deg);
+}
+.TM {
+    top: 50px;
+    left: 900px;
+    transform: rotate(3deg);
+}
+#wtw h3{
+    line-height: 1.33em;
+    margin-top: 60px;
+    font-size: 1.66em;
+}
+/*Post-its Voordelen | Nadelen*/
+.voor1 {
+    left: 15px;
+    top: 80px;
+    transform: rotate(3deg);
+}
+.voor2 {
+    left: 30px;
+    bottom: 200px;
+    transform: rotate(-3deg);
+}
+.voor3 {
+    right: 155px;
+    top: 95px; 
+    transform: rotate(-10deg);
+}
+#schakelaar {
+    height: 260px;
+}
+.voor4 {
+    right: 140px;
+    bottom: 100px;
+    transform: rotate(5deg);
+}
+.na1 {
+    left: 85px;
+    top: 80px;
+    transform: rotate(2deg);
+}
+.na2 {
+    left: 65px;
+    bottom: 100px;
+    transform: rotate(-6deg);
+}
+.na3 {
+    right: 105px;
+    top: 120px;
+    transform: rotate(9deg);
+}
+.na4 {
+    right: 165px;
+    bottom: 180px;
+    transform: rotate(1deg);
+}
+
+/*Gezondheid*/
+.small-cont .gezondheids-note{
+    background-color: #CFD5A9;
+}
+
+.ventGez1 {
+    left: 50%;
+    top: 80px;
+    transform: rotate(-5deg);
+}
+.ventGez1 img{
+    width: 300px;
+}
+.ventGez2 {
+    left: 20%;
+    top: 250px;
+    transform: rotate(4deg);
+}
+
+/*****************specific | exception code**************/
+
+/*Post-its when attached to player*/
+.post-it-player {
+    position: relative;
+    left: 1000px;
+    top: 600px;
+    transform: rotate(-8deg);
+}
+.post-it-player .tape {
+    background-color: #7BCC27;
+}
+
+/*Personalised code for the individual mentions*/
+.korte-cont p{
+    font-size: 1.2em;
+    width: 340px;
+    margin: 0 auto;
+}
+.mention1 {
+    left: 50px;
+    top: 40px;
+    background-color: #CFD5A9;
+}
+.mention2 {
+    left: 264px;
+    top: 450px;
+    background-color: #F4F8DD;
+    transform: rotate(5deg);
+}
+.mention3 {
+    right: 650px;
+    top: 300px;
+    background-color: #CFD5A9;
+    transform: rotate(-2deg);
+}
+.mention4 {
+    right: 120px;
+    top: 20px;
+    background-color: #CFD5A9;
+    transform: rotate(-5deg);
+}
+.mention5 {
+    right: 80px;
+    top: 500px;
+    background-color: #F4F8DD;
+    transform: rotate(3deg);
+}
+#bttnSc2 .tape {
+    background-color: #7BCC27;
+}
+#bttnSc2 {
+    position: relative;
+    left: 40%;
+    top: 450px;
+}
+
+.pins {
+    background-image: radial-gradient(#50E6E2, #2C807D);
+}
+.korte-cont img{
+    margin-top: 15px;
+}
+.mention1 img {
+    width: 200px;
+}
+.mention2 img {
+    width: 150px;
+}
+.mention3 img {
+    width: 150px;
+}
+.mention4 img {
+    width: 300px;
+}
+.mention5 img {
+    width: 200px;
+}
+
+/*Specific Code for the big house in Scene 3*/
+#whole-house {
+    transform: rotate(3deg);
+    margin-top: 30px;
+
+}
+#whole-house img {
+    display: block;
+    margin: 100px auto;
+}
+
+/*Specific code for the post-its attached to the big house*/
+#bouwmaterialen {
+    right: 220px;
+    top: 85px;
+    transform: rotate(10deg);
+}
+#groendak {
+    right: 260px;
+    top: 640px;
+    transform: rotate(-3deg);
+}
+#ventileren{
+    left: 200px;
+    top: 440px;
+    transform: rotate(-10deg);
+}
+#finale{
+    top: 15px;
+    left: 380px;
+}
+#finale h3{
+   font-size: 1.33em; 
+}
+#finale{
+    top: 220px;
+    left: calc(50% - 120px);
+    width: 327px;
+    height: 191px;
+}
+#finale .smallTape {
+    width: 63px;
+    height: 110px;
+    left: calc(50% - 31.5px);
+}
+#finale .tape {
+    top: -35%;
+}
+#finale h3{
+    line-height: 191px;
+    font-size: 1.8em;
+}
+#bouwmaterialen .tape{
+    background-color: #41BBB8;
+}
+#groendak .tape{
+    background-color: #F48514;
+}
+#ventileren .tape{
+    background-color: #EC3751;
+}
+#finale .tape{
+    background-color: #7BCC27;
+}
+
+/*Controls css*/
+#controls {
+    bottom: 0px;
+    height: 280px;
+    width: 100vw;
+}
+
+#controls .tape{
+    background-color: #41BBB8;
+}
+
+#controls .post-it{
+    top: 50px;
+}
+#bttnL {
+    left: 50px;
+}
+#bttnR {
+    right: 100px;
+}
+
+/*Infocard css*/
+
+#laag2info {
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+#infocard {
+    background-color: #F4F8DD;
+    width: 1140px;
+    margin: 150px auto;
+}
+#infocard h3{
+    line-height: 129px;
+    margin-left: 35px;
+}
+#infocard p{
+    margin-left: 35px;
+    font-size: 1.25em;
+    width: 90%;
+}
+#infocard h4{
+    text-align: right;
+    margin-right: 35px;
+    padding-bottom: 35px;
+}
+#infocard h4:hover{
+    cursor: pointer;
+    color: #B0B0B0;
+}
+
+.link-cont h3{
+    margin-top: 80px;
+    line-height: 80px;
+}
+.link-cont p {
+    width: 90%;
+    margin-left: 15px;
+}
+.mobile {
+    display: none;
+}
+
+.small-frame img{
+    width: 700px;
+}
+#scenegroendak .small-frame img{
+    width: 400px;
+}
+
+@media screen and (max-width: 1830px) {
+    h3{
+        font-size: 1.6em;
+    }
+    h1{
+        font-size: 2.6em;
+    }
+    .cont {
+        max-width: 1200px;
+    }
+    .scrollable {
+        height: 900px;
+    }
+    .horizontal-cont {
+        max-width: 1200px;
+    }
+    .horizontal-cont .player-cont{
+        margin-top: 10px;
+    }
+    .page2 h2 {
+        margin-top: 10px;
+    }
+
+    /*mention  notes*/
+    .titel-post-it{
+        width: 550px;
+        height: 100px;
+        margin: 114px auto;
+    }
+    .titel-tape {
+        width: 204px;
+        height: 33px;
+        top: -20%;
+        left: calc(50% - 102px);
+    }
+    .titel-post-it h1{
+        line-height: 100px;
+        font-size: 3em;
+    }
+    .korte-mention-note {
+        width: 231px;
+        height: 215px;
+    }
+    #wind {
+        width: 341px;
+        height: 285px;
+    }
+    #zon {
+        width: 301px;
+        height: 285px;
+    }
+    #uiterlijk {
+        height: 225px;
+    }
+    .korte-mention-note .pins{
+        width: 25px;
+        height: 25px;
+    }
+    .korte-cont {
+        padding-top: 45px;
+    }
+    .link-note {
+        width: 231px;
+        height: 215px;
+    }
+    .mention1 {
+        left: -20px;
+        top: 40px;
+    }
+    .mention2 {
+        left: 30px;
+        top: 380px;
+    }
+    .mention3 {
+        right: 500px;
+        top: 200px;
+    }
+    .mention4 {
+        right: 0px;
+        top: 20px;
+    }
+    .mention5 {
+        right: 80px;
+        top: 350px;
+    }
+    .mention1 img {
+        width: 160px;
+    }
+    .mention2 img {
+        width: 120px;
+    }
+    .mention3 img {
+        width: 100px;
+    }
+    .mention4 img {
+        width: 200px;
+    }
+    .mention5 img {
+        width: 120px;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    .korte-cont p {
+        font-size: 0.9em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #bttnSc2 {
+        position: relative;
+        left: 40%;
+        top: 350px;
+    }
+    /*post-its*/
+    .house-frame {
+        border: 30px solid;
+        border-color: #F4F8DD;
+        width: 894px;
+        height: 651px;
+        margin-left: calc(50% - 447px);
+    }
+    #whole-house img{
+        width: 600px;
+    }
+
+    .post-it {
+        width: 218px;
+        height: 127px;
+    }
+    .tape {
+        top: -30%;
+    }
+    .smallTape {
+        width: 42px;
+        height: 73px;
+        left: calc(50% - 21px);
+    }
+    .post-it h3{
+        line-height: 127px;
+    }
+
+    #bouwmaterialen {
+        right: 0px;
+        top: 85px;
+    }
+    #groendak {
+        right: 0px;
+        top: 450px;
+    }
+    #ventileren{
+        left: 80px;
+        top: 440px;
+    }
+
+    .TR {
+        top: 80px;
+        left: 150px;
+    }
+    .BR {
+        top: 450px;
+        left: 150px;
+    }
+    .BL {
+        top: 450px;
+        right: 90px;
+    }
+    .TL {
+        top: 110px;
+        right: 110px;
+    }
+    .TM {
+        top: 30px;
+        left: 600px;
+    }
+    #wtw h3{
+        line-height: 1.33em;
+        margin-top: 40px;
+        font-size: 1.33em;
+    }
+    
+    .delen-note {
+        width: 250px;
+        height: 217px;
+    }
+    /*Post-its Voordelen | Nadelen*/
+    .voor1 {
+        left: 0px;
+        top: 80px;
+    }
+    .voor2 {
+        left: 00px;
+        bottom: 200px;
+    }
+    .voor3 {
+        right: 55px;
+        top: 95px; 
+    }
+    .voor4 {
+        right: 40px;
+        bottom: 100px;
+    }
+    .na1 {
+        left: 35px;
+        top: 80px;
+    }
+    .na2 {
+        left: 65px;
+        bottom: 100px;
+    }
+    .na3 {
+        right: 0px;
+        top: 120px;
+    }
+    .na4 {
+        right: 0px;
+        bottom: 180px;
+    }
+
+    .ventGez1 {
+        left: 50%;
+        top: 60px;
+        transform: rotate(-5deg);
+    }
+    .ventGez1 img{
+        width: 220px;
+    }
+    .ventGez2 {
+        left: 20%;
+        top: 150px;
+        transform: rotate(4deg);
+    }
+    
+    .gezondheids-note {
+        width: 278px;
+        height: 333px;
+    }
+    .small-frame {
+        margin-left: calc(50% - 347px);
+    }
+    .small-frame {
+        width: 694px;
+        height: 500px;
+    }
+    .small-frame img {
+        display: block;
+        margin: 50px auto;
+    }
+    .small-frame img{
+        width: 500px;
+    }
+    #scenegroendak .small-frame img{
+        width: 300px;
+    }
+    .hfdstk{
+        width: 748px;
+        height: 460px;
+    }
+    .hfdstk video{
+        width: 634px;
+        left: 60px;
+        top: 50px;
+    }
+    .hfdstk-cont {
+        margin-left: calc(50% - 374px);
+    }
+    .link-cont h3{
+        font-size: 1.3em;
+        margin-top: 40px;
+        line-height: 50px;
+    }
+    .link-cont p {
+        width: 90%;
+        margin-left: 15px;
+    }
+    #zonlink {
+        height: 245px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #scene1{
+        display: none;
+    }
+    #scene2{
+        display: none;
+    }
+    #scene3{
+        display: none;
+    }
+    #scene4{
+        display: none;
+    }
+    #scene5{
+        display: none;
+    }
+    #scene6{
+        display: none;
+    }
+    #scene7{
+        display: none;
+    }
+    #scene8{
+        display: none;
+    }
+    .mobile {
+        display: block;
+        width: calc(100vw - 35px);
+        height: calc(100vh - 70px);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .flexwrapper {
+        margin-left: 10%;
+    }
+    .mobile h1{
+        text-align: center;
+        width: 70%;
+    }
+    .mobile p{
+        text-align: center;
+        font-size: 1.25em;
+        margin-top: 35px;
+        width: 70%;
+    }
+}

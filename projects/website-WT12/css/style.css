@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Formula1-Bold;
+    font-style: bold;
+    font-weight: normal;
+    src: url(../fonts/Formula1-Bold.otf);
+}
+body {
+    font-family: Formula1-Bold;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+}
+#wrapper {
+    margin: auto;
+    width: 1455px;
+    position: relative;
+}
+h1 {
+    color: #E10600;
+    font-size: 3em;
+    margin: 0px;
+    padding-right: 20px;
+}
+#canvasHolder {
+    position: absolute ;
+    z-index: 20;
+    top: 0px;
+    left: 0px;
+}
+#svgHolder1 {
+    position: absolute ;
+    top: 15px;
+    left: 15px;
+    z-index: 30;
+}
+#svgHolder2 {
+    position: relative;
+    margin-top: 33px;
+    top: -88px;
+    left: -170px;
+}

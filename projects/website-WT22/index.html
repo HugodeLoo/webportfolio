@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/ihl8gfr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Het Groene Huis</title>
+</head>
+<body class="pinboard">
+    <main>
+        <div class="scenes" id="scene1">
+            <div class="player-cont">
+                <div class="player big">
+                    <div class="pins pinL pinT"></div>
+                    <div class="pins pinR pinT"></div>
+                    <div class="pins pinL pinB"></div>
+                    <div class="pins pinR pinB"></div>
+                    <video controls id="introVid" poster="https://i.vimeocdn.com/video/1359530607-db265a4c41632c060783647b3ca0e899b1d6b6bf8608cb4489b63d48164640b7-d?mw=1300&mh=731">
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/670321091/rendition/720p/720p.mp4?loc=external&signature=ec2718c1e984a4a55c4e0e8731bc2dba2b2eaa56e396db71a0b1025e8d381dd1"
+                                type="video/mp4">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </div>
+                <div class="post-it post-it-player" id="bttnSc1">
+                    <div class="tape smallTape"></div>
+                    <h3>skip intro</h3>
+                </div>
+            </div>
+        </div>
+        <div class="scenes" id="scene2">
+            <div class="cont">
+                <div class="titel-post-it">
+                    <div class="titel-tape"></div>
+                    <h1>Korte Mentions</h1>
+                    <h3>Beweeg over de post-its om meer te leren</h3>
+                </div>
+                <div class="note korte-mention-note mention1" id="zon">
+                    <div class="pins pinTM"></div>
+                    <div class="content-cont korte-cont">
+                        <img src="assets/ZonneEnergie.png">
+                        <p class="hidden">
+                            De zon is een schone energiebron. Je kunt zelf de energie van de zon benutten met zonnepanelen of een zonneboiler op je dak. 
+                            Zonnepanelen gaan een lange tijd mee, doorgaans minimaal 20 tot 25 jaar. De panelen verdienen zich gemiddeld genomen  al in zo’n 6 tot 10 jaar terug. 
+                            Na deze terugverdienperiode generen de panelen dus pure winst. Zodra ze geïnstalleerd zijn bespaart u al op de kosten van uw energieverbruik.  
+                        </p>
+                    </div>
+                </div>
+                <div class="note korte-mention-note mention2" id="wind">
+                    <div class="pins pinTM"></div>
+                    <div class="content-cont korte-cont">
+                        <img src="assets/Windenergie.png">
+                        <p class="hidden">
+                            Windenergie is energie die ontstaat door wind die de wieken van windmolens in beweging zetten. Het is een manier om stroom op te wekken, 
+                            zonder het klimaat te belasten of grondstoffen uit te putten. Windenergie is een schone energiesoort, ook wel groene energie genoemd. 
+                            De nieuwe generatie windmolens hebben een tiphoogte van 208 meter en wekken per stuk circa 15 miljoen kWh per jaar op. 
+                            Dat is genoeg stroom om jaarlijks 5.000 huishoudens van groene energie te voorzien. 
+                        </p>
+                    </div>
+                </div>
+                <div class="note korte-mention-note mention3">
+                    <div class="pins pinTM"></div>
+                    <div class="content-cont korte-cont">
+                        <img src="assets/AfvalScheiden.png">
+                        <p class="hidden">
+                            Het principe van afval scheiden is al een tijdje bekend. Als we bepaalde types vuilnis 
+                            scheiden, kunnen we makkelijker dingen hergebruiken. Dit proces, genaamd recyclen wordt dan 
+                            makkelijker.
+                        </p>
+                    </div>
+                </div>
+                <div class="note korte-mention-note mention4">
+                    <div class="pins pinTM"></div>
+                    <div class="content-cont korte-cont">
+                        <img src="assets/GroeneHuis.png">
+                        <p class="hidden">
+                            Dit verhaal gaat over een groen huis. Groene huizen komen ook in gehele wijken voor. 
+                            Soms wordt er in de stadsplanning al aangegeven dat hele wijken dit soort huizen krijgen. 
+                            Dit heet dan een groene wijk.
+                        </p>
+                    </div>
+                </div>
+                <div class="note korte-mention-note mention5" id="uiterlijk">
+                    <div class="pins pinTM"></div>
+                    <div class="content-cont korte-cont">
+                        <img src="assets/UiterlijkHuis.png">
+                        <p class="hidden">
+                            Het uiterlijk van het huis is bij groene huizen nog belangrijker. 
+                            Het is namelijk duurder om energiezuinig te  bouwen. Hierdoor wordt het ook moeilijker te 
+                            verkopen. Door het huis een mooi uiterlijk te geven boost je de kans dat het verkocht wordt.
+                        </p>
+                    </div>
+                </div>
+                <div class="post-it" id="bttnSc2">
+                    <div class="tape smallTape"></div>
+                    <h3>Ga Verder</h3>
+                </div>
+            </div>
+        </div>
+        <div class="scenes " id="scene3">
+            <div class="cont">
+                <div class="house-frame" id="whole-house">
+                    <div class="pins pinL pinT"></div>
+                    <div class="pins pinL pinB"></div>
+                    <div class="pins pinR pinB"></div>
+                    <img src="assets/Middel_4.svg" alt="Hét Groene Huis">
+                </div>
+                <div class="post-it post-it-house bighouse" id="bouwmaterialen">
+                    <div class="tape smallTape"></div>
+                    <h3>Bouwmaterialen</h3>
+                </div>
+                <div class="post-it post-it-house bighouse" id="groendak">
+                    <div class="tape smallTape"></div>
+                    <h3>Groen Dak</h3>
+                </div>
+                <div class="post-it post-it-house bighouse" id="ventileren">
+                    <div class="tape smallTape"></div>
+                    <h3>Ventileren</h3>
+                </div>
+                <div class="post-it post-it-house hidden" id="finale">
+                    <div class="tape smallTape"></div>
+                    <h3>Wat kan ik doen?</h3>
+                </div>
+            </div>
+        </div>
+        <div class="scenes pinboard scrollable" id="sceneventileren">
+            <div class="horizontal-main">
+                <div class="horizontal-page start">
+                    <div class="horizontal-cont">
+                        <h1>Goed Ventileren</h1>
+                        <div class="player-cont hfdstk-cont">
+                            <div class="player big hfdstk">
+                                <div class="pins pinL pinT"></div>
+                                <div class="pins pinR pinT"></div>
+                                <div class="pins pinL pinB"></div>
+                                <div class="pins pinR pinB"></div>
+                                <video controls id="ventilerenvid" poster="https://i.vimeocdn.com/video/1357891255-732cf73f41910794b966c5a3d94d4e0460ed143181717b93c75f8d9645f9cf9d-d?mw=1300&mh=731">
+                                    <source src="https://player.vimeo.com/progressive_redirect/playback/670230894/rendition/720p/720p.mp4?loc=external&signature=3541fc406f2eb5b729b95d226f496b5b06c5c0d666c484c2fb5ef4e54cf3f50a"
+                                            type="video/mp4">
+                                    Sorry, your browser doesn't support embedded videos.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-page page2">
+                    <div class="horizontal-cont">
+                        <h2>Hoe Werkt Het?</h2>
+                        <div class="house-frame small-frame">
+                            <img src="assets/Middel_2.svg" alt="Hét Groene Huis">
+                        </div>
+                        <div class="post-it post-it-house TR getinfo" id="luchtfilter">
+                            <div class="tape smallTape"></div>
+                            <h3>Luchtfilter</h3>
+                        </div>
+                        <div class="post-it post-it-house BR getinfo" id="newlucht">
+                            <div class="tape smallTape"></div>
+                            <h3>Verse Lucht</h3>
+                        </div>
+                        <div class="post-it post-it-house BL getinfo" id="oldlucht">
+                            <div class="tape smallTape"></div>
+                            <h3>Oude Lucht</h3>
+                        </div>
+                        <div class="post-it post-it-house TL getinfo" id="wtw">
+                            <div class="tape smallTape"></div>
+                            <h3>Warmte-terugwin systeem</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-page page3">
+                    <div class="horizontal-cont">
+                        <div class="half-cont voordelen">
+                            <h2>Voordelen</h2>
+                            <div class="note delen-note voor1">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        De luchtcirculatie zorgt voor minder stof in huis. Dit komt omdat de lucht zich blijft bewegen, en het stof gedeeltelijk meeneemt. 
+                                        Een goed geventileerd huis heeft dus minder ernstige stofproblemen. Dit merk je ook aan je gezondheid.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor2" id="schakelaar">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        De mate van ventilatie is zelf te regelen. Deze kun je instellen via een schakelaar met 3 standen. 
+                                        Deze zijn meestal in ruimtes geplaatst waar veel vocht vrijkomt, denk aan de keuken of badkamer. 
+                                        Met dit systeem kun je dan op het moment dat je kookt de ventilatie omhoog schroeven, zodat zoveel mogelijk vocht de ruimte verlaat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor3">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Je kunt ook een sensorsysteem gebruiken. Dan regelt het systeem zichzelf door naar CO2 en temperatuursensoren te kijken die in het huis worden geplaatst. 
+                                        De temperatuur van de ventilatielucht wordt dan gereguleerd en zal altijd rond de 15 graden liggen.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor4">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        De warmte van de ‘oude’ lucht kun je hergebruiken. Dat doe je door deze bijvoorbeeld aan te sluiten aan een warmte-terugwinsysteem. 
+                                        Hiermee bespaar je veel energie die je had moeten gebruiken bij het opwarmen van de nieuwe koude lucht.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="half-cont nadelen">
+                            <h2>Nadelen</h2>
+                            <div class="note delen-note na1">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        In het pollenseizoen kan buitenlucht naar binnen zuigen tegen u werken. Het enige wat hier helpt is een goed luchtfilter.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na2">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        In de zomer kan het warmte-terugwinsysteem tegen u werken. Dit komt omdat het de warme buitenlucht nog extra verwarmd met de energie van de binnenlucht. 
+                                        Een bypass kan hier een oplossing voor zijn.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na3">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Het is een goed idee om de kanalen zo stofvrij als mogelijk te houden. Ook moet het luchtfilter onderhouden worden. 
+                                        Dit betekent dat een ventilatiesysteem aardig wat onderhoud met zich meebrengt.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na4">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Je moet je goed kijken welk systeem het beste in jouw huis past. Misschien heb je al een soortgelijk systeem, kijk dan eens of hij misschien niet zuiniger kan. 
+                                        Oudere modellen kunnen bijvoorbeeld minder energiezuinig zijn gebouwd dan huidige modellen.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mefixesfloatybois"></div>
+                    </div>
+                </div>
+                <div class="horizontal-page small-page">
+                    <div class="horizontal-cont small-cont">
+                        <h2>Gezondheid</h2>
+                        <div class="note gezondheids-note ventGez1">
+                            <div class="pins pinT pinR"></div>
+                            <div class="pins pinT pinL"></div>
+                            <div class="content-cont delen-cont">
+                                <img src="assets/Gezondheid.png">
+                            </div>
+                        </div>
+                        <div class="note gezondheids-note ventGez2">
+                            <div class="pins pinT pinR"></div>
+                            <div class="pins pinT pinL"></div>
+                            <div class="content-cont delen-cont">
+                                <p>
+                                    Er zit van alles in de lucht. We hebben al verteld dat je dit eruit kan halen door middel van een luchtfilter. 
+                                    Dit is zeer gunstig voor mensen die er heel veel last van hebben, maar niet alleen deze mensen hebben baat bij zo’n systeem. 
+                                    Van oude, muffe lucht krijg je onder andere hoofdpijn. Door goede ventilatie kun je je gezondheid erg verbeteren. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mefixesfloatybois"></div>
+            </div>
+        </div>
+        <div class="scenes pinboard scrollable" id="scenegroendak">
+            <div class="horizontal-main">
+                <div class="horizontal-page start">
+                    <div class="horizontal-cont">
+                        <h1>Groen Dak</h1>
+                        <div class="player-cont hfdstk-cont">
+                            <div class="player big hfdstk">
+                                <div class="pins pinL pinT"></div>
+                                <div class="pins pinR pinT"></div>
+                                <div class="pins pinL pinB"></div>
+                                <div class="pins pinR pinB"></div>
+                                <video controls id="groendakvid" poster="https://i.vimeocdn.com/video/1357943908-9e994972a361b2687af6c06d2c28f760ce31ef8e96f1090eb9ca49500acb3792-d?mw=1300&mh=731">
+                                    <source src="https://player.vimeo.com/progressive_redirect/playback/670323127/rendition/720p/720p.mp4?loc=external&signature=0f9a96f4d7f9c7bc4fef6fbaa6c4511c08e6f5d3b98bde8caef7e9f7fd1e4f2c"
+                                            type="video/mp4">
+                                    Sorry, your browser doesn't support embedded videos.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-page page2">
+                    <div class="horizontal-cont">
+                        <h2>Hoe Werkt Het?</h2>
+                        <div class="house-frame small-frame">
+                            <img src="assets/Middel_3.svg" alt="Hét Groene Huis">
+                        </div>
+                        <div class="post-it post-it-house TR getinfo" id="groenelaag">
+                            <div class="tape smallTape"></div>
+                            <h3>Groene Laag</h3>
+                        </div>
+                        <div class="post-it post-it-house BR getinfo" id="isolatielaag">
+                            <div class="tape smallTape"></div>
+                            <h3>Isolatielaag</h3>
+                        </div>
+                        <div class="post-it post-it-house TL getinfo" id="dak">
+                            <div class="tape smallTape"></div>
+                            <h3>Het dak</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-page page3">
+                    <div class="horizontal-cont">
+                        <div class="half-cont voordelen">
+                            <h2>Voordelen</h2>
+                            <div class="note delen-note voor1">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Groene daken kunnen regenwater opnemen. Hierdoor wordt het riool minder belast. 
+                                        Het regenwater gaat later langzaam weer uit de bodem van het groene dak door natuurlijke processen.  
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor2">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Goed voor milieu en biodiversiteit. Doordat hier een klein tuintje kan ontstaan, helpt dit de gehele natuur van je omgeving. 
+                                        Ook zorgen de planten voor opname van fijnstof en zorgen ze voor een betere luchtkwaliteit. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor3">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Een groen dak verlaagt de omgevingstemperatuur. Dit komt omdat een groen dak warmte minder goed vasthoud dan steen.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor4">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Het gemeenschappelijk aanleggen van groene daken in een wijk maakt een buurt leefbaarder en brengt de mensen in de buurt nader tot elkaar.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="half-cont nadelen">
+                            <h2>Nadelen</h2>
+                            <div class="note delen-note na1">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Vogels, vooral kraaien, vinden het leuk om de planten eruit te trekken. Gelukkig kun je dit voorkomen door er een aardbeiennet overheen te spannen.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na2">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Een groen dak is best zwaar. Je moet er dus zeker van zijn dat je dak het aan kan. Gelukkig zijn er veel bedrijven die dit voor je kunnen checken.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na3">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Een groen dak heeft wel licht onderhoud nodig. Zo moet je het bij blijvende droogte bewateren, zodat de planten niet uitdrogen. 
+                                        Ook zul je onkruid moeten verwijderen. De wortels van onkruid kunnen namelijk de diepere lagen beschadigen.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na4">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Het moet er verzorgd uit blijven zien. Als je dit bijvoorbeeld op een huis dat je gaat verkopen hebt en het ziet er onverzorgd uit, dan schrikt dat kopers af.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mefixesfloatybois"></div>
+                    </div>
+                </div>
+                <div class="horizontal-page small-page">
+                    <div class="horizontal-cont small-cont">
+                        <h2>Gezondheid</h2>
+                        <div class="note gezondheids-note ventGez1">
+                            <div class="pins pinT pinR"></div>
+                            <div class="pins pinT pinL"></div>
+                            <div class="content-cont delen-cont">
+                                <img src="assets/Gezondheid.png" width="300px">
+                            </div>
+                        </div>
+                        <div class="note gezondheids-note ventGez2">
+                            <div class="pins pinT pinR"></div>
+                            <div class="pins pinT pinL"></div>
+                            <div class="content-cont delen-cont">
+                                <p>
+                                    Een groenere leefomgeving, wat betekent dat nu voor jou? Je leeft er beter van. Je voelt je meer op je gemak, 
+                                    en je  gezondheid gaat er op vooruit. Dat blijkt uit meerdere onderzoeken.  We missen heel veel natuur in de stad, 
+                                    dus elk beetje dat je kunt toevoegen maakt jou en de mensen in je omgeving gezonder!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mefixesfloatybois"></div>
+            </div>
+        </div>
+        <div class="scenes pinboard scrollable" id="scenebouwmaterialen">
+            <div class="horizontal-main">
+                <div class="horizontal-page start">
+                    <div class="horizontal-cont">
+                        <h1>Duurzame Bouwmaterialen</h1>
+                        <div class="player-cont hfdstk-cont">
+                            <div class="player hfdstk">
+                                <div class="pins pinL pinT"></div>
+                                <div class="pins pinR pinT"></div>
+                                <div class="pins pinL pinB"></div>
+                                <div class="pins pinR pinB"></div>
+                                <video controls id="bouwmaterialenvid" poster="https://i.vimeocdn.com/video/1357895974-04f5c163894f1eff2f8f52e04e728938bf05c8a708da42e0f4fc57c8e5b9cda1-d?mw=1300&mh=731">
+                                    <source src="https://player.vimeo.com/progressive_redirect/playback/670265516/rendition/720p/720p.mp4?loc=external&signature=5cd703c83f45ffa3af878a774d4eede2decd9888fbc3043ad32aee537876b93a"
+                                            type="video/mp4">
+                                    Sorry, your browser doesn't support embedded videos.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-page page2">
+                    <div class="horizontal-cont">
+                        <h2>Hoe Werkt Het?</h2>
+                        <div class="house-frame small-frame">
+                            <img src="assets/Middel_16.svg" alt="Hét Groene Huis">
+                        </div>
+                        <div class="post-it post-it-house TR getinfo" id="metaal">
+                            <div class="tape smallTape"></div>
+                            <h3>Metaal</h3>
+                        </div>
+                        <div class="post-it post-it-house BR getinfo" id="natuursteen">
+                            <div class="tape smallTape"></div>
+                            <h3>Natuursteen</h3>
+                        </div>
+                        <div class="post-it post-it-house TL getinfo" id="bamboe">
+                            <div class="tape smallTape"></div>
+                            <h3>Bamboe</h3>
+                        </div>
+                        <div class="post-it post-it-house TM getinfo" id="hout">
+                            <div class="tape smallTape"></div>
+                            <h3>Hout</h3>
+                        </div>
+                        <div class="post-it post-it-house BL getinfo" id="isolatie">
+                            <div class="tape smallTape"></div>
+                            <h3>Isolatie</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-page page3">
+                    <div class="horizontal-cont">
+                        <div class="half-cont voordelen">
+                            <h2>Voordelen</h2>
+                            <div class="note delen-note voor1">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Doordat Bamboe voornamelijk onder de grond ‘leeft’ kun je de stammen kappen en zullen er nieuwe stammen blijven groeien. 
+                                        Doordat het ook nog eens snel groeit, is het geschikt voor grote productie.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor2">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Hennep is niet kieskeurig waar hij op groeit. Hij neemt ook nog eens veel CO2 op tijdens zijn groei! 
+                                        Ook kun je hennep voor meer dingen gebruiken, niet alleen voor isolatie. Hennep isoleert niet alleen warmte, maar ook geluid.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor3">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        De Kurkeik kan iedere 10 jaar gepeld worden. Het is hierdoor een duurzaam isolatiemateriaal. 
+                                        Het is ook nog eens 100% recyclebaar! In tegenstelling tot hennep-isolatie kun je kurk wel in spouwmuren en kelders gebruiken. Het is namelijk bestand tegen vocht.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note voor4">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Schapenwol neemt goed vocht op. Ook heeft het wol een natuurlijke vochtregeling die schimmels voorkomen! Hierdoor is dit type wol geschikt voor houtskeletbouw.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="half-cont nadelen">
+                            <h2>Nadelen</h2>
+                            <div class="note delen-note na1">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Door zijn gevoeligheid voor schimmels en insecten is onbewerkt bamboe niet geschikt om in de buitenlucht te gebruiken. 
+                                        Je kunt het bamboe bewerken, maar dan wordt het minder geschikt voor hergebruik en totaal ongeschikt als eventuele biobrandstof.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na2">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Afhankelijk van het type metaal en waar het gebruikt wordt, moet het net zoals hout goed onderhouden worden. 
+                                        Anders kan het gaan roesten, en verslechtert de kwaliteit van het metaal.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na3">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Hennep is helaas erg vochtgevoelig, dus is het niet geschikt voor spouwmuren of kelders.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="note delen-note na4">
+                                <div class="pins pinTM"></div>
+                                <div class="content-cont delen-cont">
+                                    <p>
+                                        Een plaat natuursteen kan relatief snel breken. Als het gebroken is zul je het waarschijnlijk moeten vervangen.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mefixesfloatybois"></div>
+                    </div>
+                </div>
+                <div class="horizontal-page small-page">
+                    <div class="horizontal-cont small-cont">
+                        <h2>Gezondheid</h2>
+                        <div class="note gezondheids-note ventGez1">
+                            <div class="pins pinT pinR"></div>
+                            <div class="pins pinT pinL"></div>
+                            <div class="content-cont delen-cont">
+                                <img src="assets/Gezondheid.png" width="300px">
+                            </div>
+                        </div>
+                        <div class="note gezondheids-note ventGez2">
+                            <div class="pins pinT pinR"></div>
+                            <div class="pins pinT pinL"></div>
+                            <div class="content-cont delen-cont">
+                                <p>
+                                    Gezondheid en bouwmaterialen? Klinkt een beetje vergezocht maar het is een kwestie die altijd terugkomt. 
+                                    Het is namelijk erg belangrijk dat je geen schadelijke materialen gebruikt. Bijvoorbeeld kun je glaswol beter vermijden. 
+                                    Het kan zorgen voor lichte jeuk en irritatie aan de huid. En het is ook niet fijn om in te ademen. 
+                                    Het kiezen van non-schadelijke bouwmaterialen is altijd voordelig voor je gezondheid.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mefixesfloatybois"></div>
+            </div>
+        </div>
+        <div class="scenes hidden" id="scene7">
+            <div class="player-cont">
+                <div class="player big">
+                    <div class="pins pinL pinT"></div>
+                    <div class="pins pinR pinT"></div>
+                    <div class="pins pinL pinB"></div>
+                    <div class="pins pinR pinB"></div>
+                    <video controls id="EpiVid" poster="https://i.vimeocdn.com/video/1358015553-7d999f4ced126ae883f9bbf4da2ca08db68bb5fc9ac3d018489b2a80d1a86ecb-d?mw=1300&mh=731">
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/670359563/rendition/720p/720p.mp4?loc=external&signature=9be59a8bd7bdd23bb937187ab9ea540ada27d0b8bfb214a0f59e50f6f52015a4"
+                                type="video/mp4">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </div>
+                <div class="post-it post-it-player" id="bttnEpi">
+                    <div class="tape smallTape"></div>
+                    <h3>Meer Leren</h3>
+                </div>
+            </div>
+        </div>
+        <div class="scenes hidden" id="scene8">
+            <div class="cont">
+                <div class="titel-post-it">
+                    <div class="titel-tape"></div>
+                    <h1>Meer leren</h1>
+                    <h3>Hier vind u een aantal websites</h3>
+                </div>
+                <a target="_blank" href="https://www.zonnepanelen.net/">
+                    <div class="note link-note mention1" id="zonlink">
+                        <div class="pins pinTM"></div>
+                        <div class="content-cont link-cont">
+                            <h3>zonnepanelen.net</h3>
+                            <p>Hier kun je van alles leren over zonnepanelen. Van welke soorten er zijn tot de voor en nadelen van zonnepanelen. Ook kun je belangrijke data laten berekenen, zoals de mogelijke opbrengst, rendement of offertes vergelijken.</p>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.milieucentraal.nl/">
+                    <div class="note link-note mention2">
+                        <div class="pins pinTM"></div>
+                        <div class="content-cont link-cont">
+                            <h3>milieucentraal.nl</h3>
+                            <p>Wil je nog vandaag beginnen met duurzaam leven, hier kun je veel tips vinden! Ook kun je er meer informatie over Ventileren vinden.</p>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.groenedaken.net/">
+                    <div class="note link-note mention3">
+                        <div class="pins pinTM"></div>
+                        <div class="content-cont link-cont">
+                            <h3>groenedaken.net</h3>
+                            <p>Op deze website staat veel info over Groene Daken, zo kun je er vinden wat je zelf kunt doen en hoe je het dak moet onderhouden. Ook kun je er groene daken bestellen!</p>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://groenesubsidiewijzer.verbeterjehuis.nl/groenesubsidiewijzer/">
+                    <div class="note link-note mention4">
+                        <div class="pins pinTM"></div>
+                        <div class="content-cont link-cont">
+                            <h3>groenesubsidiewijzer</h3>
+                            <p>Op deze website kun je checken bij welk project de overheid een handje meehelpt.</p>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.afvalscheidingswijzer.nl/">
+                    <div class="note link-note mention5">
+                        <div class="pins pinTM"></div>
+                        <div class="content-cont link-cont">
+                            <h3>afvalscheidingswijzer</h3>
+                            <p>Moeten koffiepads bij rest of gft? Op deze website kun je veel info over afval scheiden vinden.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="fixed hidden" id="controls">
+            <div class="post-it post-it-house" id="bttnL">
+                <div class="tape smallTape"></div>
+                <h3>Naar Huis</h3>
+            </div>
+            <div class="post-it post-it-house" id="bttnR">
+                <div class="tape smallTape"></div>
+                <h3>Meer Weten</h3>
+            </div>
+            
+        </div>
+        <div class="fixed hidden" id="laag2info">
+            <div id="infocard">
+                <h3>Titel</h3>
+                <p>Tekst</p>
+                <h4 id="bttnBck">terug</h4>
+            </div>
+        </div>
+        <div class="mobile" id="useronmobile">
+            <div class="flexwrapper">
+                <h1>Excuses,</h1>
+                <p>Het lijkt erop dat u op een te klein beeldscherm kijkt, deze Multimedia Story is gemaakt voor de computer</p>
+            </div>
+        </div>
+        
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

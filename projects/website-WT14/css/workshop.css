@@ -1,0 +1,178 @@
+/*Section: Promotie Workshop*/
+#promotion {
+    margin-top: 185px;
+    text-align: center;
+}
+#promotion h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.iFrameHoldergrand {
+    margin: 0 auto;
+    width: 775px;
+    height: 435px;
+}
+#promotion p {
+    margin-top: 55px;
+}
+
+/*Section: uitleg Workshop*/
+#explanation {
+    margin-top: 223px;
+}
+.question {
+    margin-top: 48px;
+    width: 650px;
+    height: 208px;
+}
+.small {
+    height: 108px;
+}
+.question h3 {
+    width: inherit;
+}
+.question p{
+    width: inherit;
+    margin-top: 48px;
+}
+.callToAction {
+    margin-top: 48px;
+    width: 650px;
+}
+#CallToActionButton {
+    float: left;
+    margin-top: 20px;
+    width: 350px;
+    height: 52px;
+    border-radius: 59px;
+    background-color: #EEB148;
+}
+#CallToActionButton h4 {
+    padding-top: 10px;
+    color:#000;
+    text-align: center;
+}
+#CallToActionButton:hover {
+    background-color: #FAFFD6;
+}
+
+/*Section: AVD Videos*/
+#preview {
+    margin-top: 120px;
+
+}
+.centered {
+    text-align: center;
+}
+#preview p {
+    margin-top: 21px;
+}
+.videoCard{
+    margin-top: 146px;
+}
+.videoText {
+    width: 485px;
+    margin-left: 36px;
+}
+
+@media screen and (max-width: 1200px) {
+    /*Section: Promotie Workshop*/
+    #promotion h2 {
+        margin-top: 40px;
+    }
+    .iFrameHoldergrand {
+        margin-top: 20px;
+        width: 514px;
+        height: 288px;
+    }
+    #promotion p {
+        margin-top: 34px;
+    }
+
+    /*Section: uitleg Workshop*/
+    #explanation {
+        margin-top: 199px;
+    }
+    .question {
+        width: 634px;
+        height: 180px;
+    }
+    .question p{
+        margin-top: 20px;
+    }
+    .small {
+        height: 117px;
+    }
+    .callToAction {
+        width: 634px;
+    }
+    #CallToActionButton {
+        width: 253px;
+        height: 48px;
+    }
+    #CallToActionButton h4 {
+        padding-top: 12px;
+    }
+
+    /*Section: AVD Videos*/
+    .videoCard{
+        margin-top: 106px;
+    }
+    .videoText {
+        width: 485px;
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navWrkShp {
+        width: 75%;
+    }
+    /*Section: Promotie Workshop*/
+    #promotion h2 {
+        margin-top: 60px;
+    }
+    .iFrameHoldergrand {
+        margin-top: 30px;
+        width: 300px;
+        height: 168px;
+    }
+    #promotion p {
+        margin-top: 34px;
+    }
+
+    /*Section: uitleg Workshop*/
+    #explanation {
+        margin-top: 80px;
+    }
+    .question {
+        width: 300px;
+        height: 109px;
+    }
+    .question p{
+        margin-top: 15px;
+    }
+    .small {
+        height: 50px;
+    }
+    .callToAction {
+        width: 300px;
+    }
+    #CallToActionButton {
+        width: 300px;
+    }
+    #CallToActionButton h4 {
+        padding-top: 10px;
+    }
+
+    /*Section: AVD Videos*/
+    .videoCard{
+        margin-top: 86px;
+    }
+    .videoText {
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+}

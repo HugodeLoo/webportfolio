@@ -1,0 +1,155 @@
+/*////////////////////////*/
+/*layer 3: content styling*/
+/*////////////////////////*/
+#thanksForBuying {
+    margin-top: 385px;
+    text-align: center;
+}
+
+#thanksForBuying h4 {
+    margin-top: 25px;
+}
+.download {
+    margin-top: 446px;
+    text-align: center;
+}
+.smallMargin {
+    margin-top: 85px;
+}
+.download h4 {
+    margin-bottom: 15px;
+}
+.downloadButton {
+    margin-top: 25px;
+    width: 493px;
+    height: 52px;
+    border-radius: 59px;
+    background-color: #EEB148;
+    margin: 0 auto;
+    color: #000;
+}
+.downloadButton h4{
+    padding-top: 10px;
+}
+.downloadButton:hover {
+    background-color: #FAFFD6;
+    cursor: pointer;
+}
+#voorbereiding {
+    margin-top: 305px;
+    text-align: center;
+}
+#voorbereiding h2 {
+    margin-bottom: 25px;
+}
+#tutorials {
+    margin-top: 85px;
+    text-align: center;
+}
+.myAccordion .ui-accordion-header {
+    background-color: #EEB148;
+    font-family: RadisSans;
+
+}
+.myAccordion h3 {
+    font-size: 2.27em !important;
+}
+.myAccordion {
+    text-align: left;
+    margin-top: 446px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.myAccordion img {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.myAccordion span {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .contentFromGround {
+        margin-top: 200px;
+    }
+    .myAccordion {
+        max-width: 634px;
+    }
+    .ui-accordion .ui-accordion-content {
+        padding: 0em !important;
+    }
+    
+    #thanksForBuying {
+        margin-top: 130px;
+    }
+
+    .download {
+        margin-top: 250px;
+    }
+        
+    .smallMargin {
+        margin-top: 55px;
+    }
+    .downloadButton {
+        margin-top: 15px;
+        width: 183px;
+        height: 28px;
+    }
+    .downloadButton h4{
+        padding-top: 5px;
+    }
+    
+    #voorbereiding {
+        margin-top: 100px;
+    }
+    #tutorials {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navTut {
+        width: 90%;
+    }
+    
+    #voorbereiding {
+        margin-top: 90px;
+    }
+    #tutorials {
+        margin-top: 125px;
+    }
+    .myAccordion {
+        max-width: 300px;
+    }
+    .myAccordion h3 {
+        font-size: 1em !important;
+    }
+    #thanksForBuying {
+        margin-top: 180px;
+    }
+
+    #thanksForBuying h4{
+        margin-top: 30px;
+        width: 300px;
+    }
+    .download {
+        margin-top: 80px;
+    }
+    .smallMargin {
+        margin-top: 40px;
+    }
+    .downloadButton {
+        width: 233px;
+        height: 35px;
+    }
+    .downloadButton h4{
+        padding-top: 9px;
+    }
+
+    .myAccordion img {
+        margin-top: 0px;
+        height: 15px;
+    }
+}

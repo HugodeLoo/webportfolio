@@ -1,0 +1,262 @@
+/*////////////////////////*/
+/*layer 3: content styling*/
+/*////////////////////////*/
+
+/*Section: Title*/
+#title {
+    margin-top: 125px;
+}
+#title h1, h4 {
+    text-align: center;
+}
+#title h1 {
+    padding-top: 20%
+}
+
+/*Section: Introduction*/
+
+#introduction {
+    margin-top: 497px;
+}
+.imgHolder {
+    width: 429px;
+    height: 317px;
+    margin-top: 147px;
+}
+.imgHolder img {
+    margin-top: -50px;
+    margin-left: 80px;
+    height: inherit;
+}
+.txtHolder {
+    width: 680px;
+    height: 200px;
+    margin-top: 147px;
+}
+.txtHolder p {
+    margin-top: 34px;
+}
+
+/*Section: New Workshop*/
+
+#newWorkshop {
+    margin-top: 323px;
+}
+#newWorkshop h2{
+    text-align: center;
+    margin-bottom: 64px;
+}
+#newWorkshop p{
+    float: left;
+    margin-left: 53px;
+    height: 240px;
+    width: 527px;
+}
+#buttonWorkshop {
+    float: right;
+    width: 286px;
+    height: 54px;
+    border-radius: 59px;
+    background-color: #EEB148;
+    margin-right: 50px;
+
+}
+#buttonWorkshop:hover {
+    background-color: #FAFFD6;
+}
+#buttonWorkshop h4 {
+    color: #000;
+    margin-top: 12px;
+}
+#allTheWorkshops h2{
+    text-align: center;
+    margin-bottom: 64px;
+}
+/*Section: Workshops*/
+#allTheWorkshops {
+    margin-top: 100px;
+}
+.workshop {
+    display: block;
+    height: 421px;
+    width: 355px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    top: 0;
+    margin-right: 67px;
+    margin-bottom: 54px;
+}
+.end {
+    margin-right: 0px;
+}
+.workshop img {
+    width: inherit;
+    display: block;
+    position: absolute;
+    border-radius: 25px, 25px, 0px, 0px;
+}
+.info {
+    width: inherit;
+    height: 240px;
+    position: absolute;
+    top: 199px;
+    background-color: #FFF6E6;
+    color: #771454;
+}
+.info:hover {
+    background-color: #FCE5BC;
+}
+.data  {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+.icons {
+    height: 30px;
+}
+.info h5 {
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.info p {
+    padding-left: 55px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    /*Section: Introduction*/
+    #introduction {
+        margin-top: 219px;
+    }
+    .imgHolder {
+        display: none;
+    }
+    .txtHolder {
+        width: 634px;
+        height: 238px;
+        margin-top: 92px;
+    }
+    /*Section: New Workshop*/
+
+    #newWorkshop {
+        margin-top: 125px;
+    }
+    #newWorkshop h2{
+        margin-bottom: 30px;
+    }
+    #newWorkshop p{
+        margin-top: 30px;
+        margin-left: 60px;
+        height: 179px;
+        width: 514px;
+    }
+    #buttonWorkshop {
+        width: 283px;
+        height: 40px;
+        margin-right: 60px;
+    }
+    #buttonWorkshop h4 {
+        margin-top: 8px;
+    }
+    
+    /*Section: Workshops*/
+    #allTheWorkshops {
+        margin-top: 150px;
+    }
+    .workshop {
+        height: 380px;
+        width: 310px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    .end {
+        margin-right: 20px;
+    }
+    .mediumEnd {
+        margin-right: 0px;
+    }
+    .data  {
+        padding-left: 11px;
+    }
+    .info {
+        height: 220px;
+        top: 170px;
+    }
+    .info p {
+        padding-left: 35px;
+    }
+    .icons {
+        padding-top: 5px;
+        height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .navInd {
+        width: 90%;
+    }
+    /*Section: Introduction*/
+    #introduction {
+        margin-top: 113px;
+    }
+    .txtHolder {
+        width: 300px;
+        height: 120px;
+        margin-top: 50px;
+    }
+    .txtHolder p {
+        margin-top: 15px;
+    }
+    /*Section: New Workshop*/
+
+    #newWorkshop {
+        margin-top: 95px;
+    }
+    #newWorkshop h2{
+        margin-bottom: 30px;
+    }
+    #newWorkshop p{
+        margin-top: 15px;
+        margin-left: 0px;
+        height: 80px;
+        width: 300px;
+    }
+    #buttonWorkshop {
+        margin-top: 33px;
+        width: 300px;
+        height: 40px;
+        margin-right: 2px;
+    }
+    #buttonWorkshop h4 {
+        margin-top: 8px;
+    }
+    
+    /*Section: Workshops*/
+    #allTheWorkshops {
+        margin-top: 143px;
+    }
+    .workshop {
+        width: 300px;
+        height: 350px;
+    }
+    .mediumEnd {
+        margin-right: 0px;
+    }
+    .info {
+        top: 161px;
+        height: 190px;
+    }
+    .info h5 {
+        height: 30px;
+    }
+    .info p {
+        font-size: 1.23em;
+        padding-top: 3px;
+    }
+
+}
