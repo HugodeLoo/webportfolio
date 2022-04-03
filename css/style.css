@@ -1,0 +1,762 @@
+/*FONT IMPORTS GO HERE*/
+@font-face {
+    font-family: OctarineLight;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../assets/Octarine-Light.otf);
+}
+
+@font-face {
+    font-family: OctarineBold;
+    font-style: bold;
+    font-weight: normal;
+    src: url(../assets/Octarine-Bold.otf);
+}
+
+@font-face {
+    font-family: OctarineLightOblique;
+    font-style: italic;
+    font-weight: normal;
+    src: url(../assets/Octarine-LightOblique.otf);
+}
+
+/*RESET SHEET BY meyerweb.com*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*FONT CSS GOES HERE*/
+h1{
+    font-size: 11.1em;
+
+}
+h2{
+    font-size: 4.1em;
+    
+}
+h3{
+    font-size: 2em;
+    
+}
+h4{
+    font-size: 1.94em;
+    
+}
+h5{
+    font-size: 1.39em;
+    
+}
+p{
+    font-size: 1em;
+    line-height: 1.27em;
+}
+b{
+    font-family: OctarineBold;
+}
+a{
+    color: inherit;
+}
+a :hover{
+    cursor: pointer;
+}
+/*COLOUR CSS*/
+.orange {
+    background-color: #F96D01;
+}
+.blue {
+    background-color: #013EC4;
+}
+.darkblue {
+    background-color: #001E5E;
+}
+.fontWhite {
+    color: #EFEFF1;
+}
+/*NORMAL CSS GO HERE*/
+/*COMMON CSS*/
+html {
+    font-family: OctarineLight;
+    font-size: 18px;
+    background-color: #EFEFF1;
+    overflow-x: hidden;
+}
+.dontmindmejustfixingsomefloats {
+    clear: both;
+}
+.hidden {
+    display: none;
+}
+
+/*Header CSS*/
+nav a :hover{
+    background-color: #013EC4;
+}
+header{
+    z-index: 10;
+    position: fixed;
+    right: 0px;
+    width: calc(calc(calc(100vw - 1200px) /2) + 1200px);
+}
+#pageName {
+    width: inherit;
+    border-bottom-left-radius: 50px;
+    height: 123px;
+    line-height: 123px;
+}
+#pageName img{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 80px;
+}
+#pageName h2{
+    margin-left: 35px;
+}
+#personalTitle {
+    width: calc(100% - 170px);
+    margin-left: 170px;
+    height: 84px;
+    line-height: 84px;
+    border-bottom-left-radius: 50px;
+}
+#personalTitle h3{
+    margin-left: 35px;
+}
+#navbar {
+    width: calc(100% - 317px);
+    margin-left: 317px;
+    border-bottom-left-radius: 50px;
+}
+nav li{
+    float: left;
+    height: 64px;
+    width: 160px;
+}
+#roundedLi{
+    border-bottom-left-radius: 50px;
+}
+nav a{
+    line-height: 64px;
+    text-align: center;
+}
+
+
+
+/*main CSS*/
+main {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.prontpagebuffer {
+    width: inherit;
+    height: 458px;
+}
+.topbuffer {
+    width: inherit;
+    height: 75px;
+}
+.bottombuffer {
+    width: inherit;
+    height: 200px;
+}
+
+.mainHeader {
+    color: #EFEFF1;
+}
+.head {
+    width: calc(calc(calc(calc(100vw - 1200px) /2) + 1200px) - 250px);
+}
+.leftHead{
+    position: relative;
+    left: calc(calc(calc(100vw - 1200px) /2) * -1);
+    text-align: right;
+    line-height: 163px;
+    border-bottom-right-radius: 50px;
+}
+.leftHead h2{
+    margin-right: 35px;
+}
+.noBlue {
+    border-top-right-radius: 50px;
+}
+.rightHead{
+    position: relative;
+    left: 250px;
+    text-align: left;
+    line-height: 163px;
+    border-bottom-left-radius: 50px;
+
+}
+.rightHead h2{
+    margin-left: 35px;
+}
+
+.qoute {
+    width: calc(calc(calc(100vw - 1200px) /2) + 1200px);
+}
+.rightQoute{
+    position: relative;
+    text-align: left;
+    line-height: 120px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.rightQoute h3{
+    margin-left: 35px;
+}
+.leftQoute{
+    position: relative;
+    text-align: right;
+    left: calc(calc(calc(100vw - 1200px) /2) * -1);
+    line-height: 120px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.leftQoute h3{
+    margin-right: 35px;
+}
+#cnt1  {
+    text-align: center;
+}
+#cnt1 h2 {
+    margin-top: 25px;
+}
+
+#cnt2{
+    margin: 0 90px;
+}
+.floatL{
+    float: left;
+    width: 681px;
+}
+
+#cnt2 img{
+    float: left;
+    max-width: 314px;
+    display: block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#cnt2 p{
+    margin-top: 15px;
+}
+
+.withMargin{
+    margin-top: 20px;
+}
+
+.portfoliocard {
+    float: left;
+    width: 575px;
+    height: 853px;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 50px;
+}
+.portfoliocard:hover{
+    cursor: pointer;
+}
+.plusmargin {
+    margin-right: 50px;
+}
+.portfoliocard img{
+    width: inherit;
+}
+.portfoliocardtitles {
+    width: inherit;
+    height: 166px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    color: #EFEFF1;
+}
+.portfoliocardtitles h3{
+    margin-top: 30px;
+}
+
+.photogutter {
+    width: 372px;
+    float: left;
+}
+.withM{
+    margin: 0px 20px 0px 20px;
+}
+.photogutter img {
+    margin-top: 20px;
+    width: 372px;
+}
+
+#prt1{
+    margin: 0px 90px 0px 90px;
+}
+#prt2{
+    float: left;
+    width: 418px;
+    margin-left: 90px;
+    margin-right: 99px;
+}
+#cnt5 h3, h5{
+    margin-top: 25px;
+}
+#cnt5 p{
+    margin-top: 10px;
+}
+#prt3{
+    float: left;
+    width: 418px;
+    margin-right: 90px;
+}
+#prt4{
+    margin: 0px 90px 0px 90px;
+    
+}
+#imgCont img{
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+#cnt6 img{
+    float: right;
+    max-width: 314px;
+    display: block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.linkCont {
+    float: right;
+    margin-right: 60px;
+}
+.linkCont h3{
+    margin-top: 25px;
+}
+
+/*footer CSS*/
+#topfooter {
+    height: 120px;
+    width: 100vw;
+}
+#bottomfooter {
+    height: 160px;
+    width: 100vw;
+
+}
+.placeYourArticlesHere {
+    width: inherit;
+}
+
+article{
+    width: inherit;
+}
+article h2, article h3, article h4{
+    margin-top: 25px;
+}
+article p {
+    margin-top: 10px;
+}
+article img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.articleQuote {
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    /*FONT CSS GOES HERE*/
+    h1{
+        font-size: 5.56em;
+
+    }
+    h2{
+        font-size: 2.5em;
+        
+    }
+    h3{
+        font-size: 1.37em;
+        
+    }
+    h4{
+        font-size: 1.11em;
+        
+    }
+    h5{
+        font-size: 1.11em;
+        font-family: OctarineBold;
+        
+    }
+    p{
+        font-size: 1em;
+    }
+    /*NORMAL CSS GO HERE*/
+    /*Header CSS*/
+    header{
+        width: calc(calc(calc(100vw - 800px) /2) + 800px);
+    }
+    #pageName {
+        height: 77px;
+        line-height: 77px;
+    }
+    #pageName img{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 50px;
+    }
+    #personalTitle {
+        width: calc(100% - 119px);
+        margin-left: 119px;
+        height: 58px;
+        line-height: 58px;
+    }
+    #navbar {
+        width: calc(100% - 207px);
+        margin-left: 207px;
+    }
+    nav li{
+        float: left;
+        height: 45px;
+        width: 112px;
+    }
+    #bigLi{
+        width: 149px;
+    }
+    nav a{
+        line-height: 45px;
+        text-align: center;
+    }
+
+
+    /*main CSS*/
+    main {
+        width: 800px;
+    }
+    .prontpagebuffer {
+        height: 340px;
+    }
+    .topbuffer {
+        height: 40px;
+    }
+    .bottombuffer {
+        height: 160px;
+    }
+
+    
+    /*Main Headers CSS*/
+    .head {
+        width: calc(calc(calc(calc(100vw - 800px) /2) + 800px) - 160px);
+    }
+    .leftHead{
+        left: calc(calc(calc(100vw - 800px) /2) * -1);
+        line-height: 120px;
+        border-bottom-right-radius: 30px;
+    }
+    .noBlue {
+        border-top-right-radius: 30px;
+    }
+    .rightHead{
+        left: 160px;
+        line-height: 120px;
+        border-bottom-left-radius: 30px;
+
+    }
+
+    .qoute {
+        width: calc(calc(calc(100vw - 800px) /2) + 800px);
+    }
+    .rightQoute{
+        line-height: 90px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .leftQoute{
+        left: calc(calc(calc(100vw - 800px) /2) * -1);
+        line-height: 90px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    #cnt2{
+        margin: 0 10px;
+        
+    }
+    .floatL{
+        float: left;
+        width: 400px;
+    }
+    
+    #cnt2 img{
+        float: left;
+        max-width: 300px;
+        display: block;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        margin-top: 65px;
+    }
+
+    .portfoliocard {
+        width: 383px;
+        height: 569px;
+        margin-top: 34px;
+    }
+    .plusmargin {
+        margin-right: 34px;
+    }
+    .portfoliocardtitles {
+        height: 111px;
+    }
+    .portfoliocardtitles h3{
+        margin-top: 20px;
+    }
+
+    .photogutter {
+        width: 246px;
+    }
+    .withM{
+        margin: 0px 13px 0px 13px;
+    }
+    .photogutter img {
+        margin-top: 13px;
+        width: 246px;
+    }
+
+
+    #prt1{
+        margin: 0px 0px 0px 0px;
+    }
+    #prt2{
+        width: 375px;
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+    #prt3{
+        width: 375px;
+        margin-right: 0px;
+    }
+    #prt4{
+        margin: 0px 0px 0px 0px;
+        
+    }
+    #imgCont img{
+        width: 50px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    #cnt6 img{
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    /*FONT CSS GOES HERE*/
+    h1{
+        font-size: 3.61em;
+
+    }
+    h2{
+        font-size: 1.67em;
+        
+    }
+    h3{
+        font-size: 1.11em;
+        
+    }
+    h4{
+        font-size: 1em;
+        
+    }
+    h5{
+        font-size: 1em;
+        
+    }
+    p{
+        font-size: 0.83em;
+        line-height: 1.11em;
+    }
+    /*NORMAL CSS GO HERE*/
+    header{
+        width: 100vw;
+    }
+    #pageName {
+        border-bottom-left-radius: 0px;
+        height: 55px;
+        line-height: 55px;
+    }
+    #pageName img{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 40px;
+    }
+    #pageName h2{
+        font-size: 1.15em;
+    }
+    #personalTitle {
+        width: inherit;
+        margin-left: 0px;
+        height: 40px;
+        line-height: 40px;
+        border-bottom-left-radius: 0px;
+    }
+    #navbar {
+        width: inherit;
+        margin-left: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    nav ul{
+        width: 350px;
+        margin: 0 auto;
+    }
+    nav li{
+        float: left;
+        height: 44px;
+        width: 110px;
+    }
+    #roundedLi{
+        border-bottom-left-radius: 0px;
+    }
+    #bigLi{
+        margin-left: 45px;
+    }
+    nav a{
+        line-height: 44px;
+        text-align: center;
+    }
+
+    /*main CSS*/
+    main {
+        width: 350px;
+    }
+    .prontpagebuffer {
+        height: 255px;
+    }
+    .topbuffer {
+        height: 30px;
+    }
+    .bottombuffer {
+        height: 100px;
+    }
+
+    /*Main Headers CSS*/
+    .head {
+        width: calc(calc(calc(calc(100vw - 350px) /2) + 350px) - 25px);
+    }
+    .leftHead{
+        left: calc(calc(calc(100vw - 350px) /2) * -1);
+        line-height: 61px;
+        border-bottom-right-radius: 20px;
+    }
+    .leftHead h2{
+        margin-right: 55px;
+    }
+    .noBlue {
+        border-top-right-radius: 20px;
+    }
+    .rightHead{
+        left: 25px;
+        line-height: 61px;
+        border-bottom-left-radius: 20px;
+
+    }
+    .rightHead h2{
+        margin-left: 55px;
+    }
+
+    .qoute {
+        width: calc(calc(calc(100vw - 350px) /2) + 350px);
+    }
+    .rightQoute{
+        line-height: 30px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .leftQoute{
+        left: calc(calc(calc(100vw - 350px) /2) * -1);
+        line-height: 30px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    #cnt2{
+        margin: 0 0px;
+    }
+    .floatL{
+        float: none;
+        width: inherit;
+    }
+    
+    #cnt2 img{
+        float: none;
+        max-width: 230px;
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 55px;
+    }
+    
+    .portfoliocard {
+        width: 350px;
+        height: 273px;
+        margin-top: 20px;
+    }
+    .plusmargin {
+        margin-right: 0px;
+    }
+    .portfoliocardtitles {
+        height: 80px;
+    }
+    .portfoliocardtitles h3{
+        margin-top: 10px;
+    }
+    
+    .photogutter {
+        width: 109px;
+    }
+    .withM{
+        margin: 0px 5px 0px 5px;
+    }
+    .photogutter img {
+        margin-top: 7px;
+        width: 109px;
+    }
+
+    #prt1{
+        margin: 0px 0px 0px 0px;
+    }
+    #prt2{
+        width: 350px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #cnt5 h3, h5{
+        margin-top: 20px;
+    }
+    #prt3{
+        width: 350px;
+        margin-right: 0px;
+    }
+    #prt4{
+        margin: 0px 0px 0px 0px;
+        
+    }
+    #imgCont img{
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 10px;
+        float: left;
+    }
+    /*footer CSS*/
+    #topfooter {
+        height: 60px;
+    }
+    #bottomfooter {
+        height: 80px;
+    }
+}
