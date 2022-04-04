@@ -128,7 +128,7 @@ header{
 nav li{
     float: left;
     height: 64px;
-    width: 160px;
+    width: 148px;
 }
 #roundedLi{
     border-bottom-left-radius: 50px;
@@ -144,7 +144,6 @@ nav a{
 main {
     width: 1200px;
     margin: 0 auto;
-    /* background-color: aqua; */
 }
 .prontpagebuffer {
     width: inherit;
@@ -409,19 +408,19 @@ article img{
         height: 50px;
     }
     #personalTitle {
-        width: calc(100% - 119px);
-        margin-left: 119px;
+        width: calc(100% - 50px);
+        margin-left: 50px;
         height: 58px;
         line-height: 58px;
     }
     #navbar {
-        width: calc(100% - 207px);
-        margin-left: 207px;
+        width: calc(100% - 120px);
+        margin-left: 120px;
     }
     nav li{
         float: left;
         height: 45px;
-        width: 112px;
+        width: 110px;
     }
     #bigLi{
         width: 149px;
@@ -623,7 +622,7 @@ article img{
         border-bottom-left-radius: 0px;
     }
     #bigLi{
-        margin-left: 45px;
+        width: 129px;
     }
     nav a{
         line-height: 44px;
